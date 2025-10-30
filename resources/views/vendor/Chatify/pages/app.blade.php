@@ -5,12 +5,21 @@
         {{-- Header and search bar --}}
         <div class="m-header">
             <nav>
-                <a href="#"><i class="fas fa-inbox"></i> <span class="messenger-headTitle">MESSAGES</span> </a>
+                <a href="#"><i class="fas fa-inbox" style="top: 10px; position: relative"></i> <span class="messenger-headTitle" style="top: 9px; position: relative">MESSAGES</span> </a>
+                <a href="http://localhost"><div style="position: relative; left: 140px; width: 60px;bottom: 9.5px;">POSTS</div></a>
+
+
+
+
                 {{-- header buttons --}}
-                <nav class="m-header-right">
+                <nav class="m-header-right" style="position: relative; bottom: 28px">
                     <a href="#"><i class="fas fa-cog settings-btn"></i></a>
                     <a href="#" class="listView-x"><i class="fas fa-times"></i></a>
                 </nav>
+
+
+
+
             </nav>
             {{-- Search input --}}
             <input type="text" class="messenger-search" placeholder="Search" />

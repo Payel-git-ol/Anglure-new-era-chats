@@ -151,6 +151,8 @@ body {
   align-items: center;
   gap: 1rem;
   float: right;
+    /*position: relative;
+    bottom: 30px;*/
 }
 .m-header-messaging {
   position: relative;
