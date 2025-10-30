@@ -11,7 +11,8 @@
         "laravel/tinker": "^2.10.1",
         "laravel/ui": "^4.6",
         "munafio/chatify": "^1.6",
-        "pusher/pusher-php-server": "^7.2"
+        "pusher/pusher-php-server": "^7.2",
+        "vladimir-yuldashev/laravel-queue-rabbitmq": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -26,9 +27,11 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "VladimirYuldashev\\LaravelQueueRabbitMQ\\": "vendor/vladimir-yuldashev/laravel-queue-rabbitmq/src/"
         }
     },
+
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"

@@ -1,5 +1,6 @@
 <?php
 
+use App\Jobs\TestRabbitJob;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -12,3 +13,5 @@ Route::redirect('/', '/chatify');
 Route::redirect('/home', '/chatify');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+TestRabbitJob::dispatch();
